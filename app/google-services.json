@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815856961548",
+    "firebase_url": "https://simplistic-daf11.firebaseio.com",
+    "project_id": "simplistic-daf11",
+    "storage_bucket": "simplistic-daf11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815856961548:android:146e918645114466",
+        "android_client_info": {
+          "package_name": "com.simplistic.simplistic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815856961548-dalq839ndp3r4nge455rr8t4sdbep02i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplistic.simplistic",
+            "certificate_hash": "1437fad8e4fbe9c2f2f528e7e518bf6782327146"
+          }
+        },
+        {
+          "client_id": "815856961548-4rbdeii9kb1lcnh8i3kdmi5giu3jl1ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzV3jZxLYnhsXom5stx6XutPbc_IJ404A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815856961548-4rbdeii9kb1lcnh8i3kdmi5giu3jl1ok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
