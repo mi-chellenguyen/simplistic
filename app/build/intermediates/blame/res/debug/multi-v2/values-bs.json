@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\miche\\Desktop\\simplistic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
+            "outputFile": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
                     "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\41324acb61cc09cdf324f334a6fd1492\\res\\values-bs\\values.xml",
