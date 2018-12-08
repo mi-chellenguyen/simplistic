@@ -16,12 +16,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -272,24 +272,24 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
@@ -360,20 +360,20 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\6731fc26f79f108d27ff4b86357fc019\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -384,12 +384,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -408,12 +408,12 @@
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\68e53da080ba4fa148800ea7c3c41a2c\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1082,6 +1082,10 @@
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\miche\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\ff4096211160aeea321410706d31c494\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_task_info.xml.flat",
+        "source": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\src\\main\\res\\layout\\activity_task_info.xml"
     },
     {
         "merged": "C:\\Users\\miche\\Desktop\\UCI\\3rd Year\\Q1 2018 Fall\\ICS 45J\\Projects\\Lab5\\simplistic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",

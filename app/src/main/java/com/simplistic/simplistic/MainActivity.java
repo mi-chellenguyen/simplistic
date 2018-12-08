@@ -1,5 +1,6 @@
 package com.simplistic.simplistic;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -44,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         childEventListener = new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                //tasksList.add(dataSnapshot.getValue(Task.class));
                 tasksListAdapter.add(dataSnapshot.getValue(Task.class));
 
             }
@@ -94,8 +94,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //Deletes task when a task is in the ListView is held down
+    //Sets up listeners on ListView
     private void setupListViewListener() {
+        //Deletes task when a task is in the ListView is held down
         listViewTasks.setOnItemLongClickListener(
                 new AdapterView.OnItemLongClickListener() {
                     @Override
@@ -105,6 +106,19 @@ public class MainActivity extends AppCompatActivity {
                         tasksList.remove(selectedTask);
                         tasksListAdapter.notifyDataSetChanged();
                         return true;
+                    }
+                }
+        );
+
+        //Go to TaskInfoActivity when task item is clicked
+        listViewTasks.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
+                        Task selectedTask = (Task) adapterView.getItemAtPosition(pos);
+                        Intent intent = new Intent(MainActivity.this, com.simplistic.simplistic.TaskInfoActivity.class);
+                        intent.putExtra("selectedTask", selectedTask);
+                        startActivity(intent);
                     }
                 }
         );

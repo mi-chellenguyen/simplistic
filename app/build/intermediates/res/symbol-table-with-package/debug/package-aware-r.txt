@@ -684,9 +684,11 @@ drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id ButtonBack
 id CTRL
 id FUNCTION
 id META
+id RadioGroupPriority
 id SHIFT
 id SYM
 id action0
@@ -723,6 +725,7 @@ id blocking
 id bottom
 id buttonAdd
 id buttonPanel
+id buttonSave
 id cancel_action
 id center
 id center_horizontal
@@ -744,6 +747,7 @@ id dimensions
 id direct
 id disableHome
 id editTextNewTask
+id editTextTaskName
 id edit_query
 id end
 id end_padder
@@ -791,6 +795,9 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
+id radioButtonHighPriority
+id radioButtonLowPriority
+id radioButtonMediumPriority
 id right
 id right_icon
 id right_side
@@ -833,6 +840,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textViewPriority
 id textViewTaskName
 id time
 id title
@@ -882,6 +890,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_task_info
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -946,6 +955,7 @@ string abc_toolbar_collapse_description
 string add
 string add_task
 string app_name
+string back
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -971,9 +981,15 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string high_priority
+string low_priority
+string medium_priority
+string priority
 string project_id
+string save
 string search_menu_title
 string status_bar_notification_info_overflow
+string task_name
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

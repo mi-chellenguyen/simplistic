@@ -6,36 +6,48 @@
     density="xhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1543585474217"
+    timestamp="1544262194416"
     token="3519668341150176758"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="491" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="40" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="109" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1543580627161"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
+        timestamp="1544255316200"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -44,25 +56,13 @@
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -70,7 +70,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1543584565425"
+        timestamp="1544255587985"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1544261156673"
         verifier="R_CLASS_CHANGE" >
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -93,33 +101,49 @@
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1543585292060"
-        verifier="FIELD_TYPE_CHANGE" >
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
+        build-mode="COLD"
+        timestamp="1544261428337"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
         build-mode="HOT_WARM"
-        timestamp="1543585401142"
+        timestamp="1544261627258"
         verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\builds\debug\1543585401142\classes.dex"
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\builds\debug\1544261627258\classes.dex"
             type="RELOAD_DEX" />
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1543585474217"
+        timestamp="1544261708755"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\builds\debug\1544261708755\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1544262060316"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1544262194416"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
