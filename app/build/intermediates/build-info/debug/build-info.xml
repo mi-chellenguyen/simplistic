@@ -2,35 +2,67 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xhdpi"
     format="10"
-    ir-eligibility="METHOD_DELETED"
     plugin-version="3.2.1"
-    timestamp="1544335423523"
+    timestamp="1544336075500"
     token="3519668341150176758"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="402" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="134" />
+        duration="2792" />
     <task
         name="verifier"
-        duration="27" />
+        duration="0" />
 
     <artifact
         location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1544325690619"
+        timestamp="1544336075500"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -67,50 +99,6 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1544334098658"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1544334331249"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1544335423523"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\miche\Desktop\UCI\3rd Year\Q1 2018 Fall\ICS 45J\Projects\Lab5\simplistic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
     </build>
 

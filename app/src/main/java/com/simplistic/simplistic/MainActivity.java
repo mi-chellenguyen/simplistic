@@ -154,6 +154,7 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
         });
     }
 
+    class SortHighLow implements Comparator<Task> {
         public int compare(Task a, Task b)
         {
             return a.getPriority() - b.getPriority();

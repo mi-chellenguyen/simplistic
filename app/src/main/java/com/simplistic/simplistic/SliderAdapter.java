@@ -21,8 +21,8 @@ public class SliderAdapter extends PagerAdapter {
     //Arrays
     public String[] slide_titles = {"WELCOME", "EDIT YOUR TASKS"};
 
-    public String[] slide_descriptions = {"Simplistic is a simple to-do list application that allows you to create and delete a task as well as sort based on priority.",
-                                            "Click on task item to edit. Hold task item down to delete"};
+    public String[] slide_descriptions = {"Simplistic is a simple to-do list application that allows you to create/delete/search for a task as well as sort based on priority.",
+                                            "Click on a task item in the home page to edit. \nHold task item down to delete."};
 
     @Override
     public int getCount() {
