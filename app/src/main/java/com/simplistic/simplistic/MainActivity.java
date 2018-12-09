@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
@@ -54,8 +55,8 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
         childEventListener = new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
-                tasksListAdapter.add(dataSnapshot.getValue(Task.class));
-
+                tasksList.add(dataSnapshot.getValue(Task.class));
+                tasksListAdapter.notifyDataSetChanged();
             }
 
             @Override
@@ -153,20 +154,13 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
         });
     }
 
-    class SortHighLow implements Comparator<Task>
-    {
-        // Used for sorting in ascending order of
-        // roll number
         public int compare(Task a, Task b)
         {
             return a.getPriority() - b.getPriority();
         }
     }
 
-    class SortLowHigh implements Comparator<Task>
-    {
-        // Used for sorting in ascending order of
-        // roll number
+    class SortLowHigh implements Comparator<Task> {
         public int compare(Task a, Task b)
         {
             return b.getPriority() - a.getPriority();
@@ -176,11 +170,9 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String selectedItem = parent.getItemAtPosition(position).toString();
         if (selectedItem.equals("High-Low")) {
-            Toast.makeText(this, "High-Low selected", Toast.LENGTH_LONG).show();
             Collections.sort(tasksList, new SortHighLow());
         }
         else if (selectedItem.equals("Low-High")) {
-            Toast.makeText(this, "Low-High selected", Toast.LENGTH_LONG).show();
             Collections.sort(tasksList, new SortLowHigh());
         }
         spinnerArrayAdapter.notifyDataSetChanged();
@@ -190,5 +182,25 @@ public class MainActivity extends AppCompatActivity implements OnItemSelectedLis
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
 
+    }
+
+    public void onClickSearchButton(View v) {
+        EditText edTextTaskName = findViewById(R.id.editTextNewTask);
+        String taskToSearch = edTextTaskName.getText().toString();
+        boolean found = false;
+        ArrayList<Task> tasksListCopy = new ArrayList<>(tasksList);
+        tasksListAdapter.clear();
+        for( Task t: tasksListCopy)
+        {
+            if(t.getTaskName().equalsIgnoreCase(taskToSearch)) {
+                // If the contact name is a match, add the result to the listAdapter for display
+                tasksListAdapter.add(t);
+                found = true;
+            }
+        }
+        if(!found) {
+            Toast.makeText(this, taskToSearch + " not found.", Toast.LENGTH_LONG).show();
+        }
+        edTextTaskName.setText("");
     }
 }

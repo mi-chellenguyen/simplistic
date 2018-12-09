@@ -40,8 +40,18 @@
             android:layout_weight="1"
             android:onClick="onClickAddTask"
             android:text="@string/add"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
             tools:layout_editor_absoluteX="272dp"
             tools:layout_editor_absoluteY="8dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:onClick="onClickSearchButton"
+            app:srcCompat="@android:drawable/ic_search_category_default" />
 
         <Spinner
             android:id="@+id/spinnerViewOptions"

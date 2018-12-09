@@ -25,13 +25,20 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.simplistic.simplistic.MainActivity" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.simplistic.simplistic.TaskInfoActivity" />
+        <activity android:name="com.simplistic.simplistic.OnBoardingScreenActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.simplistic.simplistic.TaskInfoActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
