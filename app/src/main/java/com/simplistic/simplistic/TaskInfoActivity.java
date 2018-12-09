@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -28,9 +26,7 @@ public class TaskInfoActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         taskRef = database.getReference("tasks");
 
-        selectedTask = (Task) getIntent().getParcelableExtra("selectedTask");
-        //TextView taskName = findViewById(R.id.textViewTaskName);
-        //taskName.setText(selectedTask.getTaskName());
+        selectedTask = getIntent().getParcelableExtra("selectedTask");
 
         lowPriority = findViewById(R.id.radioButtonLowPriority);
         mediumPriority = findViewById(R.id.radioButtonMediumPriority);
@@ -38,6 +34,10 @@ public class TaskInfoActivity extends AppCompatActivity {
         editTextTaskName = findViewById(R.id.editTextTaskName);
 
         setupActivityDisplay();
+    }
+    public void onClickButtonEdit(View view) {
+        EditText taskName = findViewById(R.id.editTextTaskName);
+        taskName.setEnabled(true);
     }
 
     public void setupActivityDisplay() {
@@ -77,4 +77,6 @@ public class TaskInfoActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
 }
+

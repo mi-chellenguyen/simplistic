@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+array view_options_array
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -724,6 +725,7 @@ id beginning
 id blocking
 id bottom
 id buttonAdd
+id buttonEdit
 id buttonPanel
 id buttonSave
 id cancel_action
@@ -775,6 +777,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id listViewTasks
 id list_item
@@ -821,6 +824,7 @@ id showCustom
 id showHome
 id showTitle
 id spacer
+id spinnerViewOptions
 id split_action_bar
 id spread
 id spread_inside
@@ -975,6 +979,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string edit
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -988,6 +993,7 @@ string priority
 string project_id
 string save
 string search_menu_title
+string sort_by
 string status_bar_notification_info_overflow
 string task_name
 style AlertDialog_AppCompat

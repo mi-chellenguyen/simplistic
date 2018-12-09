@@ -11,8 +11,8 @@
         android:id="@+id/layoutTopBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/listViewTasks"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,9 +21,9 @@
 
         <EditText
             android:id="@+id/editTextNewTask"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="4"
             android:ems="10"
             android:hint="@string/add_task"
             android:importantForAutofill="no"
@@ -34,17 +34,22 @@
 
         <Button
             android:id="@+id/buttonAdd"
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="6"
+            android:layout_weight="1"
             android:onClick="onClickAddTask"
             android:text="@string/add"
-            android:textAllCaps="false"
-            android:textSize="24sp"
-            android:typeface="monospace"
             tools:layout_editor_absoluteX="272dp"
             tools:layout_editor_absoluteY="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerViewOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:contentDescription="@string/sort_by"
+            android:textSize="12sp" />
     </LinearLayout>
 
     <ListView

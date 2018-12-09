@@ -9,4 +9,11 @@
     <string name="high_priority">High</string>
     <string name="priority">Priority</string>
     <string name="save">save</string>
+    <string name="edit">edit</string>
+    <string name="sort_by">sort by</string>
+
+    <string-array name="view_options_array">
+        <item>High-Low</item>
+        <item>Low-High</item>
+    </string-array>
 </resources>

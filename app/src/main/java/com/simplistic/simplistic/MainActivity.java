@@ -8,9 +8,12 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -19,12 +22,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
-
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnItemSelectedListener{
     private ArrayList<Task> tasksList;
-    private ArrayAdapter<Task> tasksListAdapter;
+    private TaskAdapter tasksListAdapter;
     private ListView listViewTasks;
+    private ArrayAdapter<CharSequence> spinnerArrayAdapter;
+    private Spinner spinnerViewOptions;
     private FirebaseDatabase database;
     private DatabaseReference taskRef;
     private ChildEventListener childEventListener;
@@ -37,10 +43,13 @@ public class MainActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         taskRef = database.getReference("tasks");
 
-        tasksList = new ArrayList<Task>();
-        tasksListAdapter = new ArrayAdapter<Task>(this, android.R.layout.simple_list_item_1, tasksList);
+        tasksList = new ArrayList<>();
 
-        setupEnterKeyListener();
+        spinnerViewOptions = findViewById(R.id.spinnerViewOptions);
+        spinnerArrayAdapter = ArrayAdapter.createFromResource(this, R.array.view_options_array, android.R.layout.simple_spinner_item);
+        spinnerViewOptions.setAdapter(spinnerArrayAdapter);
+        spinnerViewOptions.setOnItemSelectedListener(this);
+        spinnerViewOptions.setSelection(0);
 
         childEventListener = new ChildEventListener() {
             @Override
@@ -80,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Helper function to add a task
-    private void addTask(View v) {
+    private void addTask() {
         EditText editTask = findViewById(R.id.editTextNewTask);
         String taskName = editTask.getText().toString();
 
@@ -126,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Adds task when user hits "+" button
     public void onClickAddTask(View v) {
-        addTask(v);
+        addTask();
     }
 
     //Adds task when user hits enter key
@@ -136,11 +145,50 @@ public class MainActivity extends AppCompatActivity {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 // If the event is a key-down event on the "enter" button
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    addTask(v);
+                    addTask();
                     return true;
                 }
                 return false;
             }
         });
+    }
+
+    class SortHighLow implements Comparator<Task>
+    {
+        // Used for sorting in ascending order of
+        // roll number
+        public int compare(Task a, Task b)
+        {
+            return a.getPriority() - b.getPriority();
+        }
+    }
+
+    class SortLowHigh implements Comparator<Task>
+    {
+        // Used for sorting in ascending order of
+        // roll number
+        public int compare(Task a, Task b)
+        {
+            return b.getPriority() - a.getPriority();
+        }
+    }
+
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        String selectedItem = parent.getItemAtPosition(position).toString();
+        if (selectedItem.equals("High-Low")) {
+            Toast.makeText(this, "High-Low selected", Toast.LENGTH_LONG).show();
+            Collections.sort(tasksList, new SortHighLow());
+        }
+        else if (selectedItem.equals("Low-High")) {
+            Toast.makeText(this, "Low-High selected", Toast.LENGTH_LONG).show();
+            Collections.sort(tasksList, new SortLowHigh());
+        }
+        spinnerArrayAdapter.notifyDataSetChanged();
+        tasksListAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
     }
 }
